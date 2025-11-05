@@ -21,7 +21,7 @@ The calibration parameters can be directly used for **stereo matching, depth est
 ![image](https://github.com/xuchuanleikeshi/MES_SLAM/blob/main/Sparse%20map%20visualization%20of%20datasets.jpg)<br>
 
 
-----------------------------liunx常见指令----------------------------------
+##----------------------------liunx环境，系统运行常见指令----------------------------------
 ```bash
 清华镜像源：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple +包名
 退出虚拟环境：conda deactivate
@@ -37,7 +37,9 @@ linux自带录制屏幕工具：Ctrl + Shift + Alt + R
 文件夹下的图片重新命名：ls *.jpg | awk '{printf("mv \"%s\" \"%06d.png\"\n", $0, NR-1)}' | bash
 ```
 ```bash
-----------------------视觉slam常用指令------------------------------------
+
+
+##----------------------视觉slam常用指令------------------------------------
 D435i相机的launch文件：/opt/ros/noetic/share/realsense2_camera/launch
 evo评估工具命令：evo_traj 数据集名称 数据文件
 tar解压到指定目录指令：tar -xvf xx.tgz -C  /xx
@@ -51,7 +53,7 @@ evo_ape tum data.tum /home/xulei/MS-SLAM-master/MH05_output.txt -vas --plot
 		     
 		     
 			     
-Kitti数据集MS-SLAM在clion端命令：
+##Kitti数据集MS-SLAM在clion端命令：
 ```bash
 00数据集：/home/xulei/MS-SLAM-master/Vocabulary/ORBvoc.txt /home/xulei/MS-SLAM-master/Examples/Stereo/KITTI00-02.yaml /media/xulei/新加卷/Kitti00-10/00
 04数据集：/home/xulei/MS-SLAM-master/Vocabulary/ORBvoc.txt /home/xulei/MS-SLAM-master/Examples/Stereo/KITTI04-12.yaml /media/xulei/新加卷/Kitti00-10/0	     
