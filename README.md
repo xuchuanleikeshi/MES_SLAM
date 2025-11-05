@@ -25,7 +25,7 @@ The calibration parameters can be directly used for **stereo matching, depth est
 
 ##----------------------------Common Linux commands for system operation----------------------------------
 ```bash
-Tsinghua Mirror Source：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple +包名
+Tsinghua Mirror Source：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple +Package_name
 Exit the virtual environment：conda deactivate
 Entering the evo virtual environment：source /home/virtual_env/bin/activate
 Graphics card usage：watch -n 1 nvidia-smi
@@ -45,17 +45,17 @@ tar command to extract to a specified directory：tar -xvf xx.tgz -C  /xx
 Dataset format conversion：evo_traj euroc /media/EuRoC/MH_03_medium/mav0/state_groundtruth_estimate0/data.csv --save_as_tum
 Convert .txt files into TUM format track files.:sed 's/\.000000/e-09/g' input.txt > output.txt
 Euroc dataset comparison experiment：
-evo_traj tum /home/EMS-SLAM-master/output.txt  -p  --ref=data.tum --plot_mode xyz -a --correct_scale
-evo_traj tum /home//EMS-SLAM-master/MH05_output.txt -p --ref=data.tum --plot_mode xyz -a --correct_scale 
-evo_ape tum data.tum /home/xulei/MS-SLAM-master/MH05_output.txt -vas --plot
+evo_traj tum /home/MES-SLAM-master/output.txt  -p  --ref=data.tum --plot_mode xyz -a --correct_scale
+evo_traj tum /home//MES-SLAM-master/MH05_output.txt -p --ref=data.tum --plot_mode xyz -a --correct_scale 
+evo_ape tum data.tum /home/MES-SLAM-master/MH05_output.txt -vas --plot
 ```
 		     
 		     
 			     
 ##Kitti dataset MS-SLAM commands on the CLion platform:
 ```bash
-00 dataset：/home/EMS-SLAM-master/Vocabulary/ORBvoc.txt /home/xulei/EMS-SLAM-master/Examples/Stereo/KITTI00-02.yaml /media/NewDisk/Kitti00-10/00
-04 dataset：/home/EMS-SLAM-master/Vocabulary/ORBvoc.txt /home/xulei/EMS-SLAM-master/Examples/Stereo/KITTI04-12.yaml /media/NewDisk/Kitti00-10/0	     
+00 dataset：/home/MES-SLAM-master/Vocabulary/ORBvoc.txt /home/xulei/MES-SLAM-master/Examples/Stereo/KITTI00-02.yaml /media/NewDisk/Kitti00-10/00
+04 dataset：/home/MES-SLAM-master/Vocabulary/ORBvoc.txt /home/xulei/MES-SLAM-master/Examples/Stereo/KITTI04-12.yaml /media/NewDisk/Kitti00-10/0	     
 Kitti Dataset comparison experiment：evo_traj kitti  /home/EMS-SLAM-master/CameraTrajectory.txt  --ref=04.txt -p   --plot_mode xz
 ```
 
@@ -68,8 +68,8 @@ Euroc dataset: Examples/Stereo/stereo_euroc Vocabulary/ORBvoc.txt Examples/Stere
 ```
 
 ```bash
-Kitti dataset：Examples/Stereo/stereo_kitti Vocabulary/ORBvoc.txt Examples/Stereo/KITTI04-12.yaml /media/新加卷/Kitti00-10/04
-Tum dataset：./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt ./Examples/RGB-D/TUM3.yaml /media/新加卷/TUM/rgbd_dataset_freiburg3_walking_xyz /media/新加卷/TUM/rgbd_dataset_freiburg3_walking_xyz/associations.txt
+Kitti dataset：Examples/Stereo/stereo_kitti Vocabulary/ORBvoc.txt Examples/Stereo/KITTI04-12.yaml /media/NewDisk/Kitti00-10/04
+Tum dataset：./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt ./Examples/RGB-D/TUM3.yaml /media/NewDisk/TUM/rgbd_dataset_freiburg3_walking_xyz /media/新加卷/TUM/rgbd_dataset_freiburg3_walking_xyz/associations.txt
 
 Launch RealSense camera：roslaunch realsense2_camera rs_camera.launch
 roslaunch imu_utils D435i_imuCali.launch
