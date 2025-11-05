@@ -17,6 +17,10 @@ The calibration parameters can be directly used for **stereo matching, depth est
 ![image](https://github.com/xuchuanleikeshi/MES_SLAM/blob/main/(Kalibr%20calibrates%20RealSense%20D435i)Screenshot%20from%202025-05-12%2021-21-52.png)<br>
 
 
+## Global point cloud map generated from the simulation experiment. (a)–(d) Point cloud mapping results using different methods.
+![image](https://github.com/xuchuanleikeshi/MES_SLAM/blob/main/Sparse%20map%20visualization%20of%20datasets.jpg)<br>
+
+
 ----------------------------liunx常见指令----------------------------------
 ```bash
 清华镜像源：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple +包名
