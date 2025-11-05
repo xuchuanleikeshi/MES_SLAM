@@ -1,6 +1,6 @@
 # Overview
 
-This repository provides the implementation of a memory-efficient visual SLAM framework that integrates sparse prior embedding with nonlinear score-guided sparsification. The proposed system focuses on reducing memory overhead in keyframe and map point management while maintaining high localization and mapping accuracy. The approach combines adaptive sparsification and prior modeling to achieve compact map representation and efficient optimization suitable for embedded and resource-constrained platforms.
+This repository provides the implementation of a memory-efficient visual SLAM framework that integrates sparse prior embedding with nonlinear score-guided sparsification. The proposed system is developed upon the classic ORB-SLAM2 architecture, extending its modular design to support adaptive keyframe sparsification and compact map representation. By incorporating prior modeling and information-driven optimization, the framework effectively reduces memory overhead in keyframe and map point management while maintaining high localization and mapping accuracy. The approach is particularly suitable for embedded and resource-constrained platforms, achieving efficient computation and storage without compromising visual SLAM performance.
 
 ##  RealSense Stereo Camera Calibration Results
 
