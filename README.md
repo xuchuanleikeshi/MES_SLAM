@@ -87,6 +87,6 @@ kalibr标定测试：  rosrun kalibr kalibr_calibrate_cameras --bag /home/xulei/
 
 
 ##  Visualization of public dataset consumption for different SLAM systems
-
+![image](https://github.com/xuchuanleikeshi/MES_SLAM/blob/main/Comparison%20of%20dataset%20memory%20consumption%20curves%20in%20closed-loop%20scenarios.jpg)<br>
 
 
