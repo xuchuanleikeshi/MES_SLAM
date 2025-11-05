@@ -1,8 +1,8 @@
-## Overview
+# Overview
 
 This repository provides the implementation of a memory-efficient visual SLAM framework that integrates sparse prior embedding with nonlinear score-guided sparsification. The proposed system focuses on reducing memory overhead in keyframe and map point management while maintaining high localization and mapping accuracy. The approach combines adaptive sparsification and prior modeling to achieve compact map representation and efficient optimization suitable for embedded and resource-constrained platforms.
 
-#  RealSense Stereo Camera Calibration Results
+##  RealSense Stereo Camera Calibration Results
 
 This section presents the **geometric calibration results** of the Intel **RealSense stereo infrared cameras** (`/infra_left` and `/infra_right`) obtained using the **Kalibr** toolchain.  
 The calibration target is a **6×6 AprilGrid**, with each tag size of **3 cm** and a spacing of **9 mm**.  
