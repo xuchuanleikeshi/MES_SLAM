@@ -1,6 +1,7 @@
 
 
 ----------------------------liunx常见指令----------------------------------
+'''
 清华镜像源：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple +包名
 退出虚拟环境：conda deactivate
 进入evo虚拟环境：source /home/xulei/virtual_env/bin/activate
@@ -13,7 +14,7 @@ linux自带录制屏幕工具：Ctrl + Shift + Alt + R
 参看环境变量：echo $PATH
 查看并临时排除环境变量：export PATH=$(echo $PATH | tr ':' '\n' | grep -v 'anaconda' | tr '\n' ':')
 文件夹下的图片重新命名：ls *.jpg | awk '{printf("mv \"%s\" \"%06d.png\"\n", $0, NR-1)}' | bash
-
+'''
 ----------------------视觉slam常用指令------------------------------------
 D435i相机的launch文件：/opt/ros/noetic/share/realsense2_camera/launch
 evo评估工具命令：evo_traj 数据集名称 数据文件
