@@ -17,8 +17,6 @@ The calibration parameters can be directly used for **stereo matching, depth est
 ![image](https://github.com/xuchuanleikeshi/MES_SLAM/blob/main/(Kalibr%20calibrates%20RealSense%20D435i)Screenshot%20from%202025-05-12%2021-21-52.png)<br>
 
 
-## Global point cloud map generated from the simulation experiment. (a)–(d) Point cloud mapping results using different methods.
-![image](https://github.com/xuchuanleikeshi/MES_SLAM/blob/main/Sparse%20map%20visualization%20of%20datasets.jpg)<br>
 
 
 ##----------------------------liunx环境，系统运行常见指令----------------------------------
@@ -92,7 +90,6 @@ kalibr标定测试：  rosrun kalibr kalibr_calibrate_cameras --bag /home/xulei/
 
 
 
-##  Visualization of public dataset consumption for different SLAM systems
-![image](https://github.com/xuchuanleikeshi/MES_SLAM/blob/main/Comparison%20of%20dataset%20memory%20consumption%20curves%20in%20closed-loop%20scenarios.jpg)<br>
+
 
 
