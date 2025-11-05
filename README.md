@@ -1,3 +1,18 @@
+# 🎯 RealSense Stereo Camera Calibration Results
+
+This section presents the **geometric calibration results** of the Intel **RealSense stereo infrared cameras** (`/infra_left` and `/infra_right`) obtained using the **Kalibr** toolchain.  
+The calibration target is a **6×6 AprilGrid**, with each tag size of **3 cm** and a spacing of **9 mm**.  
+The calibration parameters can be directly used for **stereo matching, depth estimation, and VIO/SLAM initialization**.
+
+---
+
+## 📷 Camera System Parameters
+
+| Camera | Model Type | Distortion Coefficients *(k₁, k₂, k₃, k₄)* | Projection Parameters *(fx, fy, cx, cy)* | Reprojection Error (px) |
+|---------|-------------|---------------------------------------------|-------------------------------------------|--------------------------|
+| **cam0** `/infra_left` | Equidistant Distorted Pinhole | [0.3136, 0.3246, -0.5265, 0.5851] | [661.50, 662.56, 635.83, 361.51] | ±(0.266, 0.297) |
+| **cam1** `/infra_right` | Equidistant Distorted Pinhole | [0.3429, 0.1979, -0.4823, 0.9354] | [629.90, 631.60, 635.52, 353.59] | ±(0.230, 0.258) |
+
 
 
 ----------------------------liunx常见指令----------------------------------
