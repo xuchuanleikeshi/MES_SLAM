@@ -2,6 +2,11 @@
 
 This repository provides the implementation of a memory-efficient visual SLAM framework that integrates sparse prior embedding with nonlinear score-guided sparsification. The proposed system is developed upon the classic ORB-SLAM2 architecture, extending its modular design to support adaptive keyframe sparsification and compact map representation. By incorporating prior modeling and information-driven optimization, the framework effectively reduces memory overhead in keyframe and map point management while maintaining high localization and mapping accuracy. The approach is particularly suitable for embedded and resource-constrained platforms, achieving efficient computation and storage without compromising visual SLAM performance.
 
+# Source Code Availability Statement
+
+This repository accompanies the submission to Robotica and provides supplementary materials for review. To protect the authors’ intellectual property and comply with the journal’s peer-review policy, the core source code—including files in the src and include directories—remains temporarily restricted.
+The complete implementation will be released publicly after the paper is formally accepted by Robotica, under the declared open-source license. This staged release ensures both research integrity and proper attribution of the proposed SLAM framework.
+
 ##  RealSense Stereo Camera Calibration Results
 
 This section presents the **geometric calibration results** of the Intel **RealSense stereo infrared cameras** (`/infra_left` and `/infra_right`) obtained using the **Kalibr** toolchain.  
