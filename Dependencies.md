@@ -1,44 +1,44 @@
-##List of Known Dependencies
-###ORB-SLAM2 version 1.0
+1. Code in the src and include directories
 
-In this document we list all the pieces of code included  by ORB-SLAM2 and linked libraries which are not property of the authors of ORB-SLAM2.
+ORBextractor.cc
+A modified implementation derived from orb.cpp in the OpenCV library.
+The original source code is distributed under the BSD License.
 
+PnPsolver.h and PnPsolver.cc
+Adapted from epnp.h and epnp.cc originally developed by Vincent Lepetit.
+Equivalent implementations are available in BSD-licensed computer vision frameworks such as OpenCV
+ and OpenGV
+.
+The original code is released under the FreeBSD License.
 
-#####Code in **src** and **include** folders
+Function ORBmatcher::DescriptorDistance in ORBmatcher.cc
+This function references publicly available bit-counting code from Stanford Bit Hacks
+, which is released to the public domain.
 
-* *ORBextractor.cc*.
-This is a modified version of orb.cpp of OpenCV library. The original code is BSD licensed.
+2. Code in the Thirdparty directory
 
-* *PnPsolver.h, PnPsolver.cc*.
-This is a modified version of the epnp.h and epnp.cc of Vincent Lepetit. 
-This code can be found in popular BSD licensed computer vision libraries as [OpenCV](https://github.com/Itseez/opencv/blob/master/modules/calib3d/src/epnp.cpp) and [OpenGV](https://github.com/laurentkneip/opengv/blob/master/src/absolute_pose/modules/Epnp.cpp). The original code is FreeBSD.
+DBoW2
+Includes a modified version of the DBoW2
+ and DLib
+ libraries.
+Both original projects are distributed under the BSD License.
 
-* Function *ORBmatcher::DescriptorDistance* in *ORBmatcher.cc*.
-The code is from: http://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetParallel.
-The code is in the public domain.
+g2o
+Contains a modified version of the g2o
+ optimization framework.
+All included files are licensed under the BSD License.
 
-#####Code in Thirdparty folder
+3. External library dependencies
 
-* All code in **DBoW2** folder.
-This is a modified version of [DBoW2](https://github.com/dorian3d/DBoW2) and [DLib](https://github.com/dorian3d/DLib) library. All files included are BSD licensed.
+Pangolin – Used for visualization and user interface components.
+Licensed under the MIT License.
 
-* All code in **g2o** folder.
-This is a modified version of [g2o](https://github.com/RainerKuemmerle/g2o). All files included are BSD licensed.
+OpenCV – Core computer vision library used for image processing.
+Licensed under the BSD License.
 
-#####Library dependencies 
+Eigen3 – Linear algebra library used for matrix and vector computations.
+Versions ≥ 3.1.1 are licensed under MPL2; earlier versions under LGPLv3.
 
-* **Pangolin (visualization and user interface)**.
-[MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-* **OpenCV**.
-BSD license.
-
-* **Eigen3**.
-For versions greater than 3.1.1 is MPL2, earlier versions are LGPLv3.
-
-* **ROS (Optional, only if you build Examples/ROS)**.
-BSD license. In the manifest.xml the only declared package dependencies are roscpp, tf, sensor_msgs, image_transport, cv_bridge, which are all BSD licensed.
-
-
-
-
+ROS (Optional) – Required only when building the Examples/ROS module.
+Licensed under the BSD License.
+The manifest declares dependencies on roscpp, tf, sensor_msgs, image_transport, and cv_bridge, all of which are BSD-licensed packages.
