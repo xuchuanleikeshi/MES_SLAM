@@ -4,7 +4,7 @@ This repository provides the implementation of a memory-efficient visual SLAM fr
 
 # Source Code Availability Statement
 
-This repository accompanies the submission to Robotica and provides supplementary materials for review. To protect the authors’ intellectual property and comply with the journal’s peer-review policy, the core source code—including files in the **src** and include directories—remains temporarily restricted.
+This repository accompanies the submission to Robotica and provides supplementary materials for review. To protect the authors’ intellectual property and comply with the journal’s peer-review policy, the core source code—including files in the **src and include directories—remains** temporarily restricted.
 The complete implementation will be released **publicly after the paper is formally accepted by Robotica**, under the declared open-source license. This staged release ensures both research integrity and proper attribution of the proposed SLAM framework.
 
 ##  RealSense Stereo Camera Calibration Results
