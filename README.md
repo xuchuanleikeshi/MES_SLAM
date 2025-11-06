@@ -52,7 +52,7 @@ evo_ape tum data.tum /home/MES-SLAM-master/MH05_output.txt -vas --plot
 		     
 		     
 			     
-##Kitti dataset MS-SLAM commands on the CLion platform:
+##Kitti dataset MES-SLAM commands on the CLion platform:
 ```bash
 00 dataset：/home/MES-SLAM-master/Vocabulary/ORBvoc.txt /home/MES-SLAM-master/Examples/Stereo/KITTI00-02.yaml /media/NewDisk/Kitti00-10/00
 04 dataset：/home/MES-SLAM-master/Vocabulary/ORBvoc.txt /home/MES-SLAM-master/Examples/Stereo/KITTI04-12.yaml /media/NewDisk/Kitti00-10/0	     
