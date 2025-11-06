@@ -27,6 +27,27 @@ The calibration parameters can be directly used for **stereo matching, depth est
 
 
 
+#Command Reference Overview
+
+To facilitate system deployment, dataset evaluation, and experimental reproduction, this section provides a concise collection of frequently used Linux operation commands and visual SLAM execution commands related to the MES-SLAM framework.
+These commands cover environment setup, sensor launching, dataset handling, trajectory evaluation, and calibration tools commonly used during system testing and benchmarking.
+
+The listed command sets are categorized as follows:
+
+##Common Linux commands for system operation –
+Frequently used shell commands for environment management, GPU monitoring, file operations, and virtual-environment control.
+These utilities help maintain efficient development and runtime environments, especially on embedded or GPU-enabled platforms.
+
+##Visual SLAM commands –
+Typical execution instructions for launching datasets (EuRoC, KITTI, TUM) and running the SLAM system in various sensor configurations (stereo, RGB-D, RealSense).
+Also included are evo tools for trajectory evaluation, ground-truth comparison, and quantitative analysis of localization performance.
+
+##Dataset-specific examples –
+Demonstration of how to configure dataset paths, parameter files, and execution commands within the CLion or ROS environments.
+These serve as practical templates for running experiments and validating the memory-efficient SLAM implementation.
+
+Together, these instructions provide a reproducible and well-structured workflow for operating the MES-SLAM framework across multiple datasets and hardware setups.
+
 
 ##----------------------------Common Linux commands for system operation----------------------------------
 ```bash
