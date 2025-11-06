@@ -50,18 +50,18 @@ tar command to extract to a specified directory：tar -xvf xx.tgz -C  /xx
 Dataset format conversion：evo_traj euroc /media/EuRoC/MH_03_medium/mav0/state_groundtruth_estimate0/data.csv --save_as_tum
 Convert .txt files into TUM format track files.:sed 's/\.000000/e-09/g' input.txt > output.txt
 Euroc dataset comparison experiment：
-evo_traj tum /home/MES-SLAM-master/output.txt  -p  --ref=data.tum --plot_mode xyz -a --correct_scale
-evo_traj tum /home//MES-SLAM-master/MH05_output.txt -p --ref=data.tum --plot_mode xyz -a --correct_scale 
-evo_ape tum data.tum /home/MES-SLAM-master/MH05_output.txt -vas --plot
+evo_traj tum /home/MES-SLAM/output.txt  -p  --ref=data.tum --plot_mode xyz -a --correct_scale
+evo_traj tum /home//MES-SLAM/MH05_output.txt -p --ref=data.tum --plot_mode xyz -a --correct_scale 
+evo_ape tum data.tum /home/MES-SLAM/MH05_output.txt -vas --plot
 ```
 		     
 		     
 			     
 ##Kitti dataset MES-SLAM commands on the CLion platform:
 ```bash
-00 dataset：/home/MES-SLAM-master/Vocabulary/ORBvoc.txt /home/MES-SLAM-master/Examples/Stereo/KITTI00-02.yaml /media/NewDisk/Kitti00-10/00
-04 dataset：/home/MES-SLAM-master/Vocabulary/ORBvoc.txt /home/MES-SLAM-master/Examples/Stereo/KITTI04-12.yaml /media/NewDisk/Kitti00-10/0	     
-Kitti Dataset comparison experiment：evo_traj kitti  /home/EMS-SLAM-master/CameraTrajectory.txt  --ref=04.txt -p   --plot_mode xz
+00 dataset：/home/MES-SLAM/Vocabulary/ORBvoc.txt /home/MES-SLAM/Examples/Stereo/KITTI00-02.yaml /media/NewDisk/Kitti00-10/00
+04 dataset：/home/MES-SLAM/Vocabulary/ORBvoc.txt /home/MES-SLAM/Examples/Stereo/KITTI04-12.yaml /media/NewDisk/Kitti00-10/0	     
+Kitti Dataset comparison experiment：evo_traj kitti  /home/MES-SLAM/CameraTrajectory.txt  --ref=04.txt -p   --plot_mode xz
 ```
 
 
@@ -80,9 +80,9 @@ Launch RealSense camera：roslaunch realsense2_camera rs_camera.launch
 roslaunch imu_utils D435i_imuCali.launch
 rosbag play -r 400 D435i_imu.bag
 ```
-
+```bash
 Kalibr calibration test：  rosrun kalibr kalibr_calibrate_cameras --bag /home/cam_april.bag --topics /cam0/image_raw /cam1/image_raw --models pinhole-radtan pinhole-radtan --target /home/Download/april_6x6.yaml
-
+```
 
 
 
