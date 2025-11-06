@@ -49,7 +49,7 @@ These serve as practical templates for running experiments and validating the me
 Together, these instructions provide a reproducible and well-structured workflow for operating the MES-SLAM framework across multiple datasets and hardware setups.
 
 
-## ----------------------------Common Linux commands for system operation----------------------------------
+----------------------------Common Linux commands for system operation----------------------------------
 ```bash
 Tsinghua Mirror Source：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple +Package_name
 Exit the virtual environment：conda deactivate
@@ -64,7 +64,7 @@ Rename the images in the folder：ls *.jpg | awk '{printf("mv \"%s\" \"%06d.png\
 ```bash
 
 
-## ----------------------Commonly used visual SLAM commands------------------------------------
+----------------------Commonly used visual SLAM commands------------------------------------
 Launch file for D435i camera：/opt/ros/noetic/share/realsense2_camera/launch
 evo evaluation tool commands：evo_traj   Dataset Name   Data File
 tar command to extract to a specified directory：tar -xvf xx.tgz -C  /xx
@@ -78,7 +78,7 @@ evo_ape tum data.tum /home/MES-SLAM/MH05_output.txt -vas --plot
 		     
 		     
 			     
-## Kitti dataset MES-SLAM commands on the CLion platform:
+Kitti dataset MES-SLAM commands on the CLion platform:
 ```bash
 00 dataset：/home/MES-SLAM/Vocabulary/ORBvoc.txt /home/MES-SLAM/Examples/Stereo/KITTI00-02.yaml /media/NewDisk/Kitti00-10/00
 04 dataset：/home/MES-SLAM/Vocabulary/ORBvoc.txt /home/MES-SLAM/Examples/Stereo/KITTI04-12.yaml /media/NewDisk/Kitti00-10/0	     
