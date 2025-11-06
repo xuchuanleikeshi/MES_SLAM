@@ -54,8 +54,8 @@ evo_ape tum data.tum /home/MES-SLAM-master/MH05_output.txt -vas --plot
 			     
 ##Kitti dataset MS-SLAM commands on the CLion platform:
 ```bash
-00 dataset：/home/MES-SLAM-master/Vocabulary/ORBvoc.txt /home/xulei/MES-SLAM-master/Examples/Stereo/KITTI00-02.yaml /media/NewDisk/Kitti00-10/00
-04 dataset：/home/MES-SLAM-master/Vocabulary/ORBvoc.txt /home/xulei/MES-SLAM-master/Examples/Stereo/KITTI04-12.yaml /media/NewDisk/Kitti00-10/0	     
+00 dataset：/home/MES-SLAM-master/Vocabulary/ORBvoc.txt /home/MES-SLAM-master/Examples/Stereo/KITTI00-02.yaml /media/NewDisk/Kitti00-10/00
+04 dataset：/home/MES-SLAM-master/Vocabulary/ORBvoc.txt /home/MES-SLAM-master/Examples/Stereo/KITTI04-12.yaml /media/NewDisk/Kitti00-10/0	     
 Kitti Dataset comparison experiment：evo_traj kitti  /home/EMS-SLAM-master/CameraTrajectory.txt  --ref=04.txt -p   --plot_mode xz
 ```
 
@@ -69,7 +69,7 @@ Euroc dataset: Examples/Stereo/stereo_euroc Vocabulary/ORBvoc.txt Examples/Stere
 
 ```bash
 Kitti dataset：Examples/Stereo/stereo_kitti Vocabulary/ORBvoc.txt Examples/Stereo/KITTI04-12.yaml /media/NewDisk/Kitti00-10/04
-Tum dataset：./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt ./Examples/RGB-D/TUM3.yaml /media/NewDisk/TUM/rgbd_dataset_freiburg3_walking_xyz /media/新加卷/TUM/rgbd_dataset_freiburg3_walking_xyz/associations.txt
+Tum dataset：./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt ./Examples/RGB-D/TUM3.yaml /media/NewDisk/TUM/rgbd_dataset_freiburg3_walking_xyz /media/TUM/rgbd_dataset_freiburg3_walking_xyz/associations.txt
 
 Launch RealSense camera：roslaunch realsense2_camera rs_camera.launch
 roslaunch imu_utils D435i_imuCali.launch
