@@ -27,29 +27,29 @@ The calibration parameters can be directly used for **stereo matching, depth est
 
 
 
-#Command Reference Overview
+# Command Reference Overview
 
 To facilitate system deployment, dataset evaluation, and experimental reproduction, this section provides a concise collection of frequently used Linux operation commands and visual SLAM execution commands related to the MES-SLAM framework.
 These commands cover environment setup, sensor launching, dataset handling, trajectory evaluation, and calibration tools commonly used during system testing and benchmarking.
 
 The listed command sets are categorized as follows:
 
-##Common Linux commands for system operation –
+## Common Linux commands for system operation –
 Frequently used shell commands for environment management, GPU monitoring, file operations, and virtual-environment control.
 These utilities help maintain efficient development and runtime environments, especially on embedded or GPU-enabled platforms.
 
-##Visual SLAM commands –
+## Visual SLAM commands –
 Typical execution instructions for launching datasets (EuRoC, KITTI, TUM) and running the SLAM system in various sensor configurations (stereo, RGB-D, RealSense).
 Also included are evo tools for trajectory evaluation, ground-truth comparison, and quantitative analysis of localization performance.
 
-##Dataset-specific examples –
+## Dataset-specific examples –
 Demonstration of how to configure dataset paths, parameter files, and execution commands within the CLion or ROS environments.
 These serve as practical templates for running experiments and validating the memory-efficient SLAM implementation.
 
 Together, these instructions provide a reproducible and well-structured workflow for operating the MES-SLAM framework across multiple datasets and hardware setups.
 
 
-##----------------------------Common Linux commands for system operation----------------------------------
+## ----------------------------Common Linux commands for system operation----------------------------------
 ```bash
 Tsinghua Mirror Source：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple +Package_name
 Exit the virtual environment：conda deactivate
@@ -64,7 +64,7 @@ Rename the images in the folder：ls *.jpg | awk '{printf("mv \"%s\" \"%06d.png\
 ```bash
 
 
-##----------------------Commonly used visual SLAM commands------------------------------------
+## ----------------------Commonly used visual SLAM commands------------------------------------
 Launch file for D435i camera：/opt/ros/noetic/share/realsense2_camera/launch
 evo evaluation tool commands：evo_traj   Dataset Name   Data File
 tar command to extract to a specified directory：tar -xvf xx.tgz -C  /xx
@@ -78,7 +78,7 @@ evo_ape tum data.tum /home/MES-SLAM/MH05_output.txt -vas --plot
 		     
 		     
 			     
-##Kitti dataset MES-SLAM commands on the CLion platform:
+## Kitti dataset MES-SLAM commands on the CLion platform:
 ```bash
 00 dataset：/home/MES-SLAM/Vocabulary/ORBvoc.txt /home/MES-SLAM/Examples/Stereo/KITTI00-02.yaml /media/NewDisk/Kitti00-10/00
 04 dataset：/home/MES-SLAM/Vocabulary/ORBvoc.txt /home/MES-SLAM/Examples/Stereo/KITTI04-12.yaml /media/NewDisk/Kitti00-10/0	     
