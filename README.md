@@ -7,6 +7,22 @@ This repository provides the implementation of a memory-efficient visual SLAM fr
 This repository accompanies the submission to Robotica and provides supplementary materials for review. To protect the authors’ intellectual property and comply with the journal’s peer-review policy, the core source code—including files in the **src and include** directories—remains temporarily restricted.
 The complete implementation will be released **publicly after the paper is formally accepted by Robotica**, under the declared open-source license. This staged release ensures both research integrity and proper attribution of the proposed SLAM framework.
 
+# Dataset Statement — A Self-Collected Experimental Dataset
+This dataset, RealWorld-Stereo Dataset (RWStereo), was collected and organized by our research team for the experiments presented in our paper.
+All data were captured in real-world environments using calibrated stereo cameras, ensuring that the dataset reflects authentic lighting conditions, texture variations, and depth structures.
+The dataset is made publicly available for academic research and non-commercial use only. It aims to support the community in advancing studies on stereo matching, depth estimation, 3D reconstruction, and visual SLAM.
+We confirm that:
+The data are original and collected by our team.
+No personally identifiable information (PII) or copyrighted third-party content is included.
+The release complies with the applicable institutional and ethical guidelines.
+## Access and Citation
+The dataset is publicly available at:  
+👉 **[https://www.kaggle.com/datasets/layxulei53/rwstereo520](https://www.kaggle.com/datasets/layxulei53/rwstereo520)**  
+## License
+This dataset is released under the **MIT  License**.  
+You are free to use, modify, and distribute the data for **non-commercial research purposes**, provided proper attribution is given.
+
+
 ##  RealSense Stereo Camera Calibration Results
 
 This section presents the **geometric calibration results** of the Intel **RealSense stereo infrared cameras** (`/infra_left` and `/infra_right`) obtained using the **Kalibr** toolchain.  
