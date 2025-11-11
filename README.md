@@ -17,7 +17,7 @@ No personally identifiable information (PII) or copyrighted third-party content 
 The release complies with the applicable institutional and ethical guidelines.
 ## Access and Citation
 The dataset is publicly available at:  
-👉 **[https://www.kaggle.com/datasets/layxulei53/rwstereo520](https://www.kaggle.com/datasets/layxulei53/rwstereo520)**  
+👉 **[https://www.kaggle.com/layxulei53/datasets](https://www.kaggle.com/layxulei53/datasets)**  
 ## License
 This dataset is released under the **MIT  License**.  
 You are free to use, modify, and distribute the data for **non-commercial research purposes**, provided proper attribution is given.
