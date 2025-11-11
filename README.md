@@ -18,6 +18,11 @@ The release complies with the applicable institutional and ethical guidelines.
 ## Access and Citation
 The dataset is publicly available at:  
 👉 **[https://www.kaggle.com/layxulei53/datasets](https://www.kaggle.com/layxulei53/datasets)**  
+
+## Publication and Open Access
+This dataset was created for the experiments described in our forthcoming paper.  
+After the **formal publication of the paper**, the **entire dataset and corresponding annotations** will be **fully open-sourced** for academic and research use.  
+
 ## License
 This dataset is released under the **MIT  License**.  
 You are free to use, modify, and distribute the data for **non-commercial research purposes**, provided proper attribution is given.
